@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="WashWeek">
+  <rect width="64" height="64" rx="16" fill="#0F2C5A"/>
+  <g fill="none" stroke="#F4EFE6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 22h32"/>
+    <path d="M32 12v10"/>
+    <path d="M20 22l4 28h16l4-28"/>
+    <path d="M24 36h16"/>
+  </g>
+</svg>
