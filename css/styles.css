@@ -567,7 +567,7 @@ textarea {
 
 .package-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -1098,6 +1098,7 @@ textarea {
     height: 420px;
   }
 
+  .package-grid .package-card:last-child,
   .footer-grid > :first-child {
     grid-column: 1 / -1;
   }

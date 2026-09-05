@@ -31,10 +31,7 @@ const setActiveLink = () => {
   });
 };
 
-if (!location.pathname.includes("15-day")) {
-  window.addEventListener("scroll", setActiveLink);
-  setActiveLink();
-}
+window.addEventListener("scroll", setActiveLink);
 
 form?.addEventListener("submit", (event) => {
   event.preventDefault();
