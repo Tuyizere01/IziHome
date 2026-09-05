@@ -31,7 +31,10 @@ const setActiveLink = () => {
   });
 };
 
-window.addEventListener("scroll", setActiveLink);
+if (!location.pathname.includes("15-day")) {
+  window.addEventListener("scroll", setActiveLink);
+  setActiveLink();
+}
 
 form?.addEventListener("submit", (event) => {
   event.preventDefault();
