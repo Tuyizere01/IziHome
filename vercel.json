@@ -1,4 +1,11 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/momhelper/:path*", "destination": "/:path*", "permanent": true },
+    { "source": "/izihome/:path*", "destination": "/", "permanent": true },
+    { "source": "/homecare/:path*", "destination": "/", "permanent": true },
+    { "source": "/homefresh/:path*", "destination": "/", "permanent": true },
+    { "source": "/washweek/:path*", "destination": "/", "permanent": true }
+  ]
 }
